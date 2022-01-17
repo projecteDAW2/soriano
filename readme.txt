@@ -1,0 +1,1 @@
+Videojuego que consiste en conseguir la máxima puntuación evitando las bombas expuestas en los marcadores.

@@ -1,0 +1,63 @@
+CÓMO JUGAR
+
+Tu objetivo es desvelar todas las casillas que te permitan multiplicar tu puntuación. 
+
+Si presionas una casilla que oculte un 0 (un bug), pierdes.
+{{CapturaInicio.png}}
+
+Los paneles de información ubicados A LA DERECHA indican la información de sus respectivas FILAS.
+{{Captura1.png}}
+Los paneles de información ubicados DEBAJO indican la información de sus respectivas COLUMNAS
+{{Captura2.png}}.
+
+Los Archivos de Guardado (A) indican la suma total de sus celdas (1 + 0 + 0 + 2 + 1). 
+El Debugger (B) detecta la cantidad de ceros en sus celdas (2 ceros.)
+
+{{Captura3.png}}
+
+
+Guíate a través de las columnas que te den información más valiosa, y de la ayuda del robot, que te permitirá 
+desvelar información antes de revelarla.
+
+Cuanta más experiencia, menos ayuda necesitarás del robot.
+
+Suerte y disfruta!
+
+
+
+
+
+Ayuda.
+
+1. No sabes por donde empezar? De acuerdo, pondré un ejemplo para ver cómo se juega.
+
+2. Observemos el tablero. Empezar por lo sencillo es lo ideal, así que desvelaremos la fila que no tiene ningún bug.
+
+3. Fíjate tanto en la suma total de la fila 2 como en la cantidad de errores. Ya que hay 2 ceros, la única posibilidad de que llegue a la suma total es que el resto de campos sean 1.
+
+4. Lo mismo se puede aplicar a la columna 1. Ya que no hay puntuación que multiplicar, no es necesario presionar esos paneles.
+
+5. Al mismo tiempo, la distribución de la fila 4 hace imposible que contenga un 1, ya que con 3 ceros la única posibilidad de que llegue a 5 es 2+3.
+
+6. Algo similar se aplica a la columna 3. De esa manera podemos asegurar de que hay 2 ceros garantizados. A partir de aquí podemos utilizar el robot... o podemos probar suerte para ahorrar. 
+
+7. La casilla de la fila 5 / columna 4 es la menos arriesgada debido a la cantidad de bugs que hay. Así que optaremos por esa opción. A veces dependemos de la suerte, pero eso no nos impide optimizar nuestros resultados.
+
+8. Ya que falta un 2, un 1 y un 0 en la columna 4, las posibilidades de fallar aumentan... así que utilizaremos el robot.
+
+9. ...Y ha dado error, así que podemos saber con exactitud el resto de resultados de la columna.
+
+10. Aplicamos en la fila 3 lo que hemos aprendido varios pasos atrás...
+
+11. ...y además, sabemos que en la columna 3 solo puede quedar 2 y 0, así que tenemos otro garantizado.
+
+12. Así que, por qué no? Utilicemos el robot una vez más.
+
+13. Y ya que también nos ha dado error, Podemos averiguar el resto de multiplicadores que nos faltan para ganar la partida. Felicidades!
+
+14. Crees que lo puedes hacer mejor? Puedes hacerlo con menos ayuda que el robot? ¡Pues adelante y a practicar, suerte y disfruta!
+
+
+
+Imagen 9 y 13: Añadir error
+
